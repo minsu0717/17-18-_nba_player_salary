@@ -10,7 +10,7 @@ def main():
     choice = st.sidebar.selectbox('메뉴',menu)
     
     if choice == 'Home':
-        st.subheader('이 데이터셋은 Basketball Reference에서 스크랩 했습니다.\
+        st.subheader('이 데이터셋은 캐글에서 받아왔고, Basketball Reference에서 스크랩 했습니다.\
                 이 데이터 셋은 플레이어 이름, 팀 및 급여 급액에 대한 정보가 있습니다.')
         st.image('http://jumpball.co.kr/news/data/20180609/p179579935773582_643.jpg')
         
