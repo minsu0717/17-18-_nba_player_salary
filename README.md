@@ -8,11 +8,8 @@
 개발과정 :　https://www.kaggle.com/datasets/koki25ando/salary의 데이터 셋을 이용하였습니다. 데이터를 시각화 하기 위하여 seaborn의 countplot과, streamlit의 pyplot을 이용하였습니다.
 선수 검색을 위해 편의상 소문자도 가능하게 .str.lower()를 사용하여 다 소문자로 바꾸고(데이터프레임), input 받은 값도 lower로 바꿔서 소문자로도 검색 가능
 
-순위표
-
 테스트 
-
-차트의 크기 
+차트 크기 조정 후 ec2 배포 
 
 해결 
 차트의 크기를 조절하기 위해서는 matplotlib의 figure를 사용하여 크기를 조정해야 한다.
